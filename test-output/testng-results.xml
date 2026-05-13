@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-13T18:34:32 IST" name="CrossBrowserTesting" finished-at="2026-05-13T18:34:48 IST" duration-ms="15821">
+    <groups>
+    </groups>
+    <test started-at="2026-05-13T18:34:32 IST" name="ChromeTest" finished-at="2026-05-13T18:34:36 IST" duration-ms="4497">
+      <class name="com.CRM.Testcases.HomePageTestcase">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.CRM.Testcases.HomePageTestcase@223191a6]" started-at="2026-05-13T18:34:32 IST" name="setup" finished-at="2026-05-13T18:34:35 IST" duration-ms="2875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyUrl()[pri:1, instance:com.CRM.Testcases.HomePageTestcase@223191a6]" started-at="2026-05-13T18:34:35 IST" name="VerifyUrl" finished-at="2026-05-13T18:34:35 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUrl -->
+        <test-method signature="ValidateSearchBox()[pri:2, instance:com.CRM.Testcases.HomePageTestcase@223191a6]" started-at="2026-05-13T18:34:35 IST" name="ValidateSearchBox" finished-at="2026-05-13T18:34:36 IST" duration-ms="1526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSearchBox -->
+      </class> <!-- com.CRM.Testcases.HomePageTestcase -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2026-05-13T18:34:36 IST" name="FirefoxTest" finished-at="2026-05-13T18:34:43 IST" duration-ms="6876">
+      <class name="com.CRM.Testcases.HomePageTestcase">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.CRM.Testcases.HomePageTestcase@3590fc5b]" started-at="2026-05-13T18:34:36 IST" name="setup" finished-at="2026-05-13T18:34:42 IST" duration-ms="5349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyUrl()[pri:1, instance:com.CRM.Testcases.HomePageTestcase@3590fc5b]" started-at="2026-05-13T18:34:42 IST" name="VerifyUrl" finished-at="2026-05-13T18:34:42 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUrl -->
+        <test-method signature="ValidateSearchBox()[pri:2, instance:com.CRM.Testcases.HomePageTestcase@3590fc5b]" started-at="2026-05-13T18:34:42 IST" name="ValidateSearchBox" finished-at="2026-05-13T18:34:43 IST" duration-ms="1493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSearchBox -->
+      </class> <!-- com.CRM.Testcases.HomePageTestcase -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2026-05-13T18:34:43 IST" name="EdgeTest" finished-at="2026-05-13T18:34:48 IST" duration-ms="4345">
+      <class name="com.CRM.Testcases.HomePageTestcase">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.CRM.Testcases.HomePageTestcase@515c6049]" started-at="2026-05-13T18:34:43 IST" name="setup" finished-at="2026-05-13T18:34:45 IST" duration-ms="2295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyUrl()[pri:1, instance:com.CRM.Testcases.HomePageTestcase@515c6049]" started-at="2026-05-13T18:34:45 IST" name="VerifyUrl" finished-at="2026-05-13T18:34:45 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUrl -->
+        <test-method signature="ValidateSearchBox()[pri:2, instance:com.CRM.Testcases.HomePageTestcase@515c6049]" started-at="2026-05-13T18:34:45 IST" name="ValidateSearchBox" finished-at="2026-05-13T18:34:48 IST" duration-ms="2026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSearchBox -->
+      </class> <!-- com.CRM.Testcases.HomePageTestcase -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- CrossBrowserTesting -->
+</testng-results>
