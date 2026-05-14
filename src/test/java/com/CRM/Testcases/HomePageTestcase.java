@@ -3,6 +3,8 @@ package com.CRM.Testcases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.CRM.Utility.Utilites;
+
 public class HomePageTestcase extends BaseClass {
 	
 	
@@ -26,6 +28,8 @@ public class HomePageTestcase extends BaseClass {
 	  driver.get("https://www.amazon.in/");
 
 	    Assert.assertTrue(hp.searchBoxisDisplayed());
+	    
+	    Utilites.getScreenShot(driver);
 
 	    System.out.println("Search box displayed successfully");
 	 	  
